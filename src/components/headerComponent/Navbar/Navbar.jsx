@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import logo from "../../../assets/beach-logo-vector-template_497289-578.avif";
 
 const Navbar = () => {
   const navLink = (
@@ -12,10 +13,10 @@ const Navbar = () => {
             <NavLink to="/profile">Profile</NavLink>
           </li>
           <li>
-            <NavLink to="/addProduct">Add Product</NavLink>
+            <NavLink to="/project">Project</NavLink>
           </li>
           <li>
-            <NavLink to="/myCart">My cart</NavLink>
+            <NavLink to="/blog">Blog</NavLink>
           </li>
         </>
       }
@@ -25,10 +26,29 @@ const Navbar = () => {
       <li>
         <NavLink to="/about">About Us</NavLink>
       </li>
+      <li>
+        <NavLink to="/contact">Contact</NavLink>
+      </li>
+    </>
+  );
+  const navBtn = (
+    <>
+      <div className="flex">
+        <li>
+          <button className="btn rounded bg-blue-950 text-white pt-4 mr-5">
+            <NavLink to="/login">Login</NavLink>
+          </button>
+        </li>
+        <li>
+          <button className="flex btn rounded bg-blue-950 pt-4 text-white">
+            <NavLink to="/register">Register</NavLink>
+          </button>
+        </li>
+      </div>
     </>
   );
   return (
-    <div className="navbar bg-green-300 rounded px-5">
+    <div className="navbar bg-violet-950 rounded px-5">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -54,12 +74,16 @@ const Navbar = () => {
             {navLink}
           </ul>
         </div>
-        <NavLink to="/" className="text-3xl text-black font-bold">
-          Travellogo
+        <NavLink to="/" className="flex flex-col items-center justify-center text-center">
+          <img className="w-16 h-16 rounded-full" src={logo} alt="" />
+          <h2 className="text-2xl text-white font bold">Travellogo</h2>
         </NavLink>
       </div>
-      <div className="navbar-end hidden lg:flex   text-black font-bold">
+      <div className="navbar-center  hidden lg:flex text-white font-bold">
         <ul className="menu menu-horizontal px-1">{navLink}</ul>
+      </div>
+      <div className="navbar-end  hidden lg:flex ml-52 text-black font-bold">
+        <ul className="menu menu-horizontal px-1">{navBtn}</ul>
       </div>
     </div>
   );
