@@ -13,7 +13,7 @@ const Navbar = () => {
             <NavLink to="/profile">Profile</NavLink>
           </li>
           <li>
-            <NavLink to="/project">Project</NavLink>
+            <NavLink to="/package">Package</NavLink>
           </li>
           <li>
             <NavLink to="/blog">Blog</NavLink>
@@ -33,9 +33,9 @@ const Navbar = () => {
   );
   const navBtn = (
     <>
-      <div className="flex">
+      <div className=" lg:flex">
         <li>
-          <button className="btn rounded bg-blue-950 text-white pt-4 mr-5">
+          <button className="btn rounded bg-blue-950 text-white pt-4 mr-5 mb-2">
             <NavLink to="/login">Login</NavLink>
           </button>
         </li>
@@ -76,13 +76,13 @@ const Navbar = () => {
         </div>
         <NavLink to="/" className="flex flex-col items-center justify-center text-center">
           <img className="w-16 h-16 rounded-full" src={logo} alt="" />
-          <h2 className="text-2xl text-white font bold">Travellogo</h2>
+          <h2 className="text-2xl text-white font-bold">Travellogo</h2>
         </NavLink>
       </div>
       <div className="navbar-center  hidden lg:flex text-white font-bold">
         <ul className="menu menu-horizontal px-1">{navLink}</ul>
       </div>
-      <div className="navbar-end  hidden lg:flex ml-52 text-black font-bold">
+      <div className="navbar-end   lg:flex  text-black font-bold">
         <ul className="menu menu-horizontal px-1">{navBtn}</ul>
       </div>
     </div>

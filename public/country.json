@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "type": "Foreign Tour",
+    "description": "Explore exciting foreign destinations and immerse yourself in different cultures. Discover the world's wonders on our international tours.",
+    "img": "https://blog.dookinternational.com/images/post-media/hvGOY1688470246.jpg"
+  },
+  {
+    "id": 2,
+    "type": "Domestic Tour",
+    "description": "Discover the beauty of your own country with our domestic tours. Experience the diversity and charm of local destinations.",
+    "img": "https://www.besonline.in/blog/wp-content/uploads/2020/12/places-to-visit-in-bangladesh.jpg"
+  }
+]

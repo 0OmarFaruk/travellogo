@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "site": "Hill Site",
+      "description": "Explore the beauty of hill sites and enjoy panoramic views of nature's wonders. Ideal for nature lovers and adventure seekers.",
+      "img": "https://www.nativeplanet.com/img/2019/12/hill-station-1576868-960-720-1577445945.jpg"
+    },
+    {
+      "id": 2,
+      "site": "Sea Site",
+      "description": "Relax by the sea, feel the warm breeze, and soak in the tranquil atmosphere of coastal destinations. Perfect for beaches and water enthusiasts.",
+      "img": "https://media.cntraveller.in/wp-content/uploads/2017/01/goaresortlead.jpg"
+    },
+    {
+      "id": 3,
+      "site": "City",
+      "description": "Experience the hustle and bustle of vibrant cities, where culture, entertainment, and dining options are at your doorstep.",
+      "img": "https://e360.yale.edu/assets/site/_1500x1500_fit_center-center_80/Woven-City-1-_Toyota.jpg"
+    },
+    {
+      "id": 4,
+      "site": "Desert",
+      "description": "Discover the mysteries of desert landscapes with vast sand dunes and starry nights. Enjoy camel rides and immerse yourself in local traditions.",
+      "img": "https://res.cloudinary.com/prochaine-escale/image/upload/t_travel_objective_events_carousel/les%20cent%20ciels%20agafay%202.jpg"
+    },
+    {
+      "id": 5,
+      "site": "Forest",
+      "description": "Embrace the serenity of lush forests, perfect for hiking, wildlife observation, and reconnecting with nature.",
+      "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/11a0cc95-aa8d-48be-bc47-e55baa6ecacc/dfrtsdp-dbc32ca8-9d05-4e91-85e6-f71ae3ece397.png/v1/fill/w_1280,h_732,q_80,strp/peaceful_and_serene_forest_by_mholtsmeier_dfrtsdp-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzMyIiwicGF0aCI6IlwvZlwvMTFhMGNjOTUtYWE4ZC00OGJlLWJjNDctZTU1YmFhNmVjYWNjXC9kZnJ0c2RwLWRiYzMyY2E4LTlkMDUtNGU5MS04NWU2LWY3MWFlM2VjZTM5Ny5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.RKKIVefJ1zXWvNi9-w52t7jUVwT2mYjTiU5CgohP8mA"
+    }
+  ]
+  
